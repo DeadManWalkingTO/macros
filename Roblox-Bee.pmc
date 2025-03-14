@@ -1,0 +1,321 @@
+[PMC Globals]|None||
+[PMC Code v5.4.1]|NumpadMult||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Main
+Context=None|
+Groups=Start:1
+1|[Pause]||1|1000|Sleep||||||
+2|Move|980, 520, 0|1|10|Click||||||
+3|[Pause]||1|150|Sleep||||||
+4|WinActivate||1|333|WinActivate||Roblox||||
+5|[Gosub]|ClickHold|1|0|Gosub||||||
+6|[Pause]||1|100|Sleep||||||
+07|[LoopStart]|LoopStart|0|0|Loop||||||
+08|[Gosub]|Cyrcle|1|0|Gosub||||||
+09|[LoopEnd]|LoopEnd|1|0|Loop||||||
+10|[Goto]|iCyrcle|1|0|Goto||||||
+
+[PMC Code v5.4.1]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Cyrcle
+Context=None|
+Groups=Start:1
+1|w|{w Down}|1|0|Send||||||
+2|[Pause]||1|150|Sleep||||||
+3|d|{d Up}|1|0|Send||||||
+4|[Pause]||1|150|Sleep||||||
+5|a|{a Down}|1|0|Send||||||
+6|[Pause]||1|150|Sleep||||||
+7|w|{w Up}|1|0|Send||||||
+8|[Pause]||1|150|Sleep||||||
+9|s|{s Down}|1|0|Send||||||
+10|[Pause]||1|150|Sleep||||||
+11|a|{a Up}|1|0|Send||||||
+12|[Pause]||1|150|Sleep||||||
+13|d|{d Down}|1|0|Send||||||
+14|[Pause]||1|150|Sleep||||||
+15|s|{s Up}|1|0|Send||||||
+16|[Pause]||1|150|Sleep||||||
+17|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|F5||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ClickHold
+Context=None|
+Groups=Start:1
+1|[Pause]||1|150|Sleep||||||
+2|WinActivate||1|333|WinActivate||Roblox||||
+3|[Pause]||1|100|Sleep||||||
+4|Left Click|Left, , Down|1|10|Click||||||
+5|[Pause]||1|100|Sleep||||||
+6|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|F6||0|Window,2,Fast,0,1,Input,-1,-1,1|1|iCyrcle
+Context=None|
+Groups=Start:1
+1|w|{w Down}|1|0|Send||||||
+2|[Pause]||1|150|Sleep||||||
+3|d|{d Up}|1|0|Send||||||
+4|[Pause]||1|150|Sleep||||||
+5|a|{a Down}|1|0|Send||||||
+6|[Pause]||1|150|Sleep||||||
+7|w|{w Up}|1|0|Send||||||
+8|[Pause]||1|150|Sleep||||||
+9|s|{s Down}|1|0|Send||||||
+10|[Pause]||1|150|Sleep||||||
+11|a|{a Up}|1|0|Send||||||
+12|[Pause]||1|150|Sleep||||||
+13|d|{d Down}|1|0|Send||||||
+14|[Pause]||1|150|Sleep||||||
+15|s|{s Up}|1|0|Send||||||
+16|[Pause]||1|150|Sleep||||||
+
+[PMC Code v5.4.1]|F7||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Jump
+Context=None|
+Groups=Start:1
+1|[Pause]||1|300|Sleep||||||
+2|Space|{Space Down}|1|0|Send||||||
+3|[Pause]||1|300|Sleep||||||
+4|Space|{Space Up}|1|0|Send||||||
+5|[Pause]||1|2000|Sleep||||||
+6|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||0|Window,2,Fast,0,1,Input,-1,-1,1|1|JumpHold
+Context=None|
+Groups=Start:1
+1|[Pause]||1|300|Sleep||||||
+2|1|{1 Down}|1|0|Send||||||
+3|[Pause]||1|100|Sleep||||||
+4|1|{1 Up}|1|0|Send||||||
+5|[Pause]||1|300|Sleep||||||
+6|Move|1011, 493, 0|1|10|Click||||||
+7|[Pause]||1|300|Sleep||||||
+8|[Gosub]|ClickHold|1|0|Gosub||||||
+9|[Pause]|Random|1|4000|Sleep|7000|||||
+10|[Gosub]|Jump|1|0|Gosub||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Hub
+Context=None|
+Groups=Start:1
+1|[Pause]||1|1000|Sleep||||||
+2|Move|980, 520, 0|1|10|Click||||||
+3|[Pause]||1|150|Sleep||||||
+4|WinActivate||1|333|WinActivate||Roblox||||
+5|[Pause]||1|500|Sleep||||||
+6|[Gosub]|ClickHold|1|0|Gosub||||||
+7|[Pause]||1|500|Sleep||||||
+8|[Goto]|C400|1|0|Goto||||||
+9|[LoopStart]|LoopStart|0|0|Loop||||||
+10|[Pause]||1|1000|Sleep||||||
+11|[Gosub]|ClickHold|1|0|Gosub||||||
+12|[Pause]||1|100|Sleep||||||
+13|[Gosub]|H400|1|0|Gosub||||||
+14|[LoopEnd]|LoopEnd|1|0|Loop||||||
+
+[PMC Code v5.4.1]|||0|Window,2,Fast,0,1,Input,-1,-1,1|1|H400
+Context=None|
+Groups=Start:1
+1|[Pause]||1|4000|Sleep||||||
+2|w|{w Down}|1|0|Send||||||
+3|[Pause]||1|400|Sleep||||||
+4|w|{w Up}|1|0|Send||||||
+5|[Pause]||1|4000|Sleep||||||
+6|s|{s Down}|1|0|Send||||||
+7|[Pause]||1|400|Sleep||||||
+8|s|{s Up}|1|0|Send||||||
+9|[Pause]||1|4000|Sleep||||||
+10|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||0|Window,2,Fast,0,1,Input,-1,-1,1|1|C400
+Context=None|
+Groups=Start:1
+1|w|{w Down}|1|0|Send||||||
+2|[Pause]||1|400|Sleep||||||
+3|d|{d Up}|1|0|Send||||||
+4|[Pause]||1|400|Sleep||||||
+5|a|{a Down}|1|0|Send||||||
+6|[Pause]||1|400|Sleep||||||
+7|w|{w Up}|1|0|Send||||||
+8|[Pause]||1|400|Sleep||||||
+9|s|{s Down}|1|0|Send||||||
+10|[Pause]||1|400|Sleep||||||
+11|a|{a Up}|1|0|Send||||||
+12|[Pause]||1|400|Sleep||||||
+13|d|{d Down}|1|0|Send||||||
+14|[Pause]||1|400|Sleep||||||
+15|s|{s Up}|1|0|Send||||||
+16|[Pause]||1|400|Sleep||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Hit4
+Context=None|
+Groups=Start:1
+1|[Pause]||1|1000|Sleep||||||
+2|[LoopStart]|LoopStart|0|0|Loop||||||
+3|4|{4 Down}|1|0|Send||||||
+4|[Pause]||1|100|Sleep||||||
+5|4|{4 Up}|1|0|Send||||||
+6|[Pause]||1|10000|Sleep||||||
+7|[LoopEnd]|LoopEnd|1|0|Loop||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|SCat
+Context=None|
+Groups=Start:1
+1|[Pause]||1|1000|Sleep||||||
+2|WinActivate||1|333|WinActivate||Roblox||||
+3|[Gosub]|HClickHold|1|0|Gosub||||||
+4|[LoopStart]|LoopStart|0|0|Loop||||||
+5|[Gosub]|SCatMain|1|0|Gosub||||||
+6|[Gosub]|MLeft|1|0|Gosub||||||
+7|[Gosub]|SCatMain|1|0|Gosub||||||
+8|[Gosub]|MLeft|1|0|Gosub||||||
+9|[Gosub]|SCatMain|1|0|Gosub||||||
+10|[Gosub]|MRight|1|0|Gosub||||||
+11|[Gosub]|SCatMain|1|0|Gosub||||||
+12|[Gosub]|MRight|1|0|Gosub||||||
+13|[Gosub]|SCatMain|1|0|Gosub||||||
+14|[Gosub]|MRight|1|0|Gosub||||||
+15|[Gosub]|SCatMain|1|0|Gosub||||||
+16|[Gosub]|MLeft|1|0|Gosub||||||
+17|[LoopEnd]|LoopEnd|1|0|Loop||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|SCatMain
+Context=None|
+Groups=Start:1
+1|w|{w Down}|1|0|Send||||||
+2|[Pause]||1|800|Sleep||||||
+3|w|{w Up}|1|0|Send||||||
+4|s|{s Down}|1|0|Send||||||
+5|[Pause]||1|800|Sleep||||||
+6|s|{s Up}|1|0|Send||||||
+7|w|{w Down}|1|0|Send||||||
+8|[Pause]||1|200|Sleep||||||
+9|w|{w Up}|1|0|Send||||||
+10|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HubFarm
+Context=None|
+Groups=Start:1
+1|[Pause]||1|1000|Sleep||||||
+2|WinActivate||1|333|WinActivate||Roblox||||
+3|[Gosub]|HiveBadge|1|0|Gosub||||||
+4|[LoopStart]|LoopStart|0|0|Loop||||||
+5|[Gosub]|HCorner|1|0|Gosub||||||
+6|[Gosub]|HClickHold|1|0|Gosub||||||
+7|[Gosub]|HStart|1|0|Gosub||||||
+8|[Pause]||1|400|Sleep||||||
+09|3|{3}|1|0|Send||||||
+10|[Pause]||1|100|Sleep||||||
+11|[LoopStart]|LoopStart|50|0|Loop||||||
+12|[Gosub]|HCyrcle|1|0|Gosub||||||
+13|[LoopEnd]|LoopEnd|1|0|Loop||||||
+14|[Pause]||1|200|Sleep||||||
+15|d|{d Up}|1|0|Send||||||
+16|[LoopStart]|LoopStart|6|0|Loop||||||
+17|[Gosub]|MRight|1|0|Gosub||||||
+18|[LoopEnd]|LoopEnd|1|0|Loop||||||
+19|[LoopEnd]|LoopEnd|1|0|Loop||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HCorner
+Context=None|
+Groups=Start:1
+1|w|{w Down}|1|0|Send||||||
+2|[Pause]||1|3000|Sleep||||||
+3|w|{w Up}|1|0|Send||||||
+4|[LoopStart]|LoopStart|14|0|Loop||||||
+5|[Gosub]|MLeft|1|0|Gosub||||||
+6|[Gosub]|MUp|1|0|Gosub||||||
+7|[LoopEnd]|LoopEnd|1|0|Loop||||||
+8|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HClickHold
+Context=None|
+Groups=Start:1
+1|[Pause]||1|150|Sleep||||||
+2|WinActivate||1|333|WinActivate||Roblox||||
+3|[Pause]||1|100|Sleep||||||
+4|Move|651, 451, 0|1|10|Click||||||
+5|[Pause]||1|100|Sleep||||||
+6|Left Move & Click|650, 450 Left, Down|1|10|Click||||||
+7|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HStart
+Context=None|
+Groups=Start:1
+1|s|{s Down}|1|0|Send||||||
+2|[Pause]||1|3000|Sleep||||||
+3|s|{s Up}|1|0|Send||||||
+4|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||0|Window,2,Fast,0,1,Input,-1,-1,1|1|HCyrcle
+Context=None|
+Groups=Start:1
+1|w|{w Down}|1|0|Send||||||
+2|[Pause]||1|400|Sleep||||||
+3|d|{d Up}|1|0|Send||||||
+4|[Pause]||1|400|Sleep||||||
+5|a|{a Down}|1|0|Send||||||
+6|[Pause]||1|400|Sleep||||||
+7|w|{w Up}|1|0|Send||||||
+8|[Pause]||1|400|Sleep||||||
+9|s|{s Down}|1|0|Send||||||
+10|[Pause]||1|400|Sleep||||||
+11|a|{a Up}|1|0|Send||||||
+12|[Pause]||1|400|Sleep||||||
+13|d|{d Down}|1|0|Send||||||
+14|[Pause]||1|400|Sleep||||||
+15|s|{s Up}|1|0|Send||||||
+16|[Pause]||1|400|Sleep||||||
+17|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||0|Window,2,Fast,0,1,Input,-1,-1,1|1|MUp
+Context=None|
+Groups=Start:1
+1|w|{w Down}|1|0|Send||||||
+2|[Pause]||1|100|Sleep||||||
+3|w|{w Up}|1|0|Send||||||
+4|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||0|Window,2,Fast,0,1,Input,-1,-1,1|1|MDown
+Context=None|
+Groups=Start:1
+1|s|{s Down}|1|0|Send||||||
+2|[Pause]||1|100|Sleep||||||
+3|s|{s Up}|1|0|Send||||||
+4|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||0|Window,2,Fast,0,1,Input,-1,-1,1|1|MLeft
+Context=None|
+Groups=Start:1
+1|a|{a Down}|1|0|Send||||||
+2|[Pause]||1|100|Sleep||||||
+3|a|{a Up}|1|0|Send||||||
+4|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||0|Window,2,Fast,0,1,Input,-1,-1,1|1|MRight
+Context=None|
+Groups=Start:1
+1|d|{d Down}|1|0|Send||||||
+2|[Pause]||1|100|Sleep||||||
+3|d|{d Up}|1|0|Send||||||
+4|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|HiveBadge
+Context=None|
+Groups=Start:1
+1|[Pause]||1|150|Sleep||||||
+2|WinActivate||1|333|WinActivate||Roblox||||
+3|[Pause]||1|100|Sleep||||||
+4|Move|36, 161, 0|1|10|Click||||||
+5|[Pause]||1|100|Sleep||||||
+6|Left Move & Click|35, 160 Left, 1|1|10|Click||||||
+7|[Pause]||1|1000|Sleep||||||
+8|Move|201, 161, 0|1|10|Click||||||
+9|[Pause]||1|100|Sleep||||||
+10|Left Move & Click|200, 160 Left, 1|1|10|Click||||||
+11|[Pause]||1|1000|Sleep||||||
+12|Move|136, 446, 0|1|10|Click||||||
+13|[Pause]||1|100|Sleep||||||
+14|Left Move & Click|135, 445 Left, 1|1|10|Click||||||
+15|[Pause]||1|1000|Sleep||||||
+16|Mouse Wheel Down|WheelDown, 1|20|100|Click||||||
+17|Return||1|0|Return||||||
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|End
+Context=None|
+Groups=Start:1
+1|Return||1|0|Return||||||
+
