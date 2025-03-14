@@ -1,0 +1,13 @@
+[PMC Globals]|None||
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Context=None|
+Groups=Start:1
+1|[Pause]||1|1000|Sleep||||||
+2|[LoopStart]|LoopStart|0|0|Loop||||||
+3|Move|Rel 50, 0, 0|1|10|Click||||||
+4|[LoopStart]|LoopStart|60|0|Loop||||||
+5|[Pause]||1|1000|Sleep||||||
+6|[LoopEnd]|LoopEnd|1|0|Loop||||||
+7|Move|Rel -50, 0, 0|1|10|Click||||||
+8|[LoopEnd]|LoopEnd|1|0|Loop||||||
+
